@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <v-container>
-      <v-text-field></v-text-field>
       <DownloaderForm />
     </v-container>
   </div>
