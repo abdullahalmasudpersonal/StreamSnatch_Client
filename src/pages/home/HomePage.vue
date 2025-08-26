@@ -1,13 +1,15 @@
 <template>
   <div class="home">
     <v-container>
-      <DownloaderForm />
+      <!-- <DownloaderForm /> -->
+      <DuplicateDownload />
     </v-container>
   </div>
 </template>
 
 <script setup lang="ts">
 import DownloaderForm from './DownloaderForm.vue'
+import DuplicateDownload from './duplicateDownload.vue'
 </script>
 
 <style scoped>
